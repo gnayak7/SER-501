@@ -1,0 +1,397 @@
+Trying:
+    sampleSinglyLinkedList = SinglyLinkedList()
+Expecting nothing
+ok
+Trying:
+    sampleSinglyLinkedList.prepend(5)
+Expecting:
+    '5'
+ok
+Trying:
+    sampleSinglyLinkedList.prepend(10)
+Expecting:
+    '10'
+ok
+Trying:
+    sampleSinglyLinkedList.prepend(13)
+Expecting:
+    '13'
+ok
+Trying:
+    sampleSinglyLinkedList.remove(5)
+Expecting:
+    '13'
+ok
+Trying:
+    sampleSinglyLinkedList.remove(10)
+Expecting:
+    '13'
+ok
+Trying:
+    print sampleSinglyLinkedList
+Expecting:
+    List:13->10->5
+ok
+Trying:
+    sampleBinarySearchTreeDict = BinarySearchTreeDict()
+Expecting nothing
+ok
+Trying:
+    sampleBinarySearchTreeDict.__setitem__(3,3)
+Expecting nothing
+ok
+Trying:
+    sampleBinarySearchTreeDict.__setitem__(2,2)
+Expecting nothing
+ok
+Trying:
+    sampleBinarySearchTreeDict.__setitem__(1,1)
+Expecting nothing
+ok
+Trying:
+    sampleBinarySearchTreeDict.__setitem__(5,5)
+Expecting nothing
+ok
+Trying:
+    sampleBinarySearchTreeDict.__setitem__(4,4)
+Expecting nothing
+ok
+Trying:
+    sampleBinarySearchTreeDict.pre_order_keys(sampleBinarySearchTreeDict.root)
+Expecting:
+    3
+    2
+    1
+    5
+    4
+ok
+Trying:
+    sampleBinarySearchTreeDict.in_order_keys(sampleBinarySearchTreeDict.root)
+Expecting:
+    1
+    2
+    3
+    4
+    5
+ok
+Trying:
+    sampleBinarySearchTreeDict.post_order_keys(sampleBinarySearchTreeDict.root)
+Expecting:
+    1
+    2
+    4
+    5
+    3
+ok
+Trying:
+    sampleOpenAddressing = OpenAddressing()
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(1,1)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(2,2)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(3,3)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(4,4)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(5,5)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(6,6)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(7,7)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(8,8)
+Expecting:
+    ---------------- rebuild -----------------
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(9,9)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(10,10)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(11,11)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(12,12)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(13,13)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(14,14)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(15,15)
+Expecting:
+    ---------------- rebuild -----------------
+ok
+Trying:
+    sampleOpenAddressing.__setitem__(16,16)
+Expecting nothing
+ok
+Trying:
+    sampleOpenAddressing.display()
+Expecting:
+    Null
+    Null
+    ('1', '1')
+    ('2', '2')
+    ('3', '3')
+    ('4', '4')
+    ('5', '5')
+    ('6', '6')
+    ('7', '7')
+    ('8', '8')
+    ('9', '9')
+    ('10', '10')
+    ('11', '11')
+    ('12', '12')
+    ('13', '13')
+    ('14', '14')
+    ('15', '15')
+    ('16', '16')
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+ok
+Trying:
+    print sampleOpenAddressing.__getitem__(2)
+Expecting:
+    ('2', '2')
+ok
+Trying:
+    sampleChainedHashDict = ChainedHashDict()
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(1,1)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(2,2)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(3,3)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(4,4)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(5,5)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(6,6)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(7,7)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(8,8)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(9,9)
+Expecting:
+    -----------------calling singly linked list------------------
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(10,10)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(11,11)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(12,12)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(13,13)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(14,14)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(15,15)
+Expecting:
+    -----------------calling singly linked list------------------
+ok
+Trying:
+    sampleChainedHashDict.__setitem__(16,16)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__delitem__(32)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.__delitem__(32)
+Expecting nothing
+ok
+Trying:
+    sampleChainedHashDict.display()
+Expecting:
+    Null
+    List:1
+    List:2
+    List:3
+    List:4
+    List:5
+    List:6
+    List:7
+    List:8
+    List:9
+    List:10
+    List:11
+    List:12
+    List:13
+    List:14
+    List:15
+    List:16
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+    Null
+ok
+Trying:
+    print sampleChainedHashDict.__len__()
+Expecting:
+    16
+ok
+Trying:
+    print sampleChainedHashDict.__contains__(24)
+Expecting:
+    False
+ok
+55 items had no tests:
+    assignment2
+    assignment2.BinarySearchTreeDict
+    assignment2.BinarySearchTreeDict.__contains__
+    assignment2.BinarySearchTreeDict.__getitem__
+    assignment2.BinarySearchTreeDict.__init__
+    assignment2.BinarySearchTreeDict.__len__
+    assignment2.BinarySearchTreeDict.__setitem__
+    assignment2.BinarySearchTreeDict.delitem
+    assignment2.BinarySearchTreeDict.display
+    assignment2.BinarySearchTreeDict.height
+    assignment2.BinarySearchTreeDict.in_order
+    assignment2.BinarySearchTreeDict.in_order_keys
+    assignment2.BinarySearchTreeDict.post_order_keys
+    assignment2.BinarySearchTreeDict.pre_order_keys
+    assignment2.BinarySearchTreeDict.transplant
+    assignment2.BinarySearchTreeDict.tree_minimum
+    assignment2.BinaryTreeNode
+    assignment2.BinaryTreeNode.__init__
+    assignment2.ChainedHashDict
+    assignment2.ChainedHashDict.__contains__
+    assignment2.ChainedHashDict.__delitem__
+    assignment2.ChainedHashDict.__getitem__
+    assignment2.ChainedHashDict.__init__
+    assignment2.ChainedHashDict.__len__
+    assignment2.ChainedHashDict.__setitem__
+    assignment2.ChainedHashDict.bin_count
+    assignment2.ChainedHashDict.display
+    assignment2.ChainedHashDict.load_factor
+    assignment2.ChainedHashDict.rebuild
+    assignment2.OpenAddressing
+    assignment2.OpenAddressing.__contains__
+    assignment2.OpenAddressing.__delitem__
+    assignment2.OpenAddressing.__getitem__
+    assignment2.OpenAddressing.__init__
+    assignment2.OpenAddressing.__len__
+    assignment2.OpenAddressing.__setitem__
+    assignment2.OpenAddressing.bin_count
+    assignment2.OpenAddressing.display
+    assignment2.OpenAddressing.load_factor
+    assignment2.OpenAddressing.rebuild
+    assignment2.SinglyLinkedList
+    assignment2.SinglyLinkedList.__contains__
+    assignment2.SinglyLinkedList.__init__
+    assignment2.SinglyLinkedList.__iter__
+    assignment2.SinglyLinkedList.__len__
+    assignment2.SinglyLinkedList.__repr__
+    assignment2.SinglyLinkedList.prepend
+    assignment2.SinglyLinkedList.remove
+    assignment2.SinglyLinkedNode
+    assignment2.SinglyLinkedNode.__init__
+    assignment2.SinglyLinkedNode.__repr__
+    assignment2.SinglyLinkedNode.item
+    assignment2.SinglyLinkedNode.next
+    assignment2.chained_hash
+    assignment2.open_hash
+1 items passed all tests:
+  57 tests in assignment2.test
+57 tests in 56 items.
+57 passed and 0 failed.
+Test passed.
